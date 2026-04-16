@@ -6,10 +6,10 @@
     <string>com.script.unplug_mute</string>
     <key>ProgramArguments</key>
     <array>
-    <string>/Users/[USER_NAME]/Mute-on-Unplug/unplug_mute.sh</string>
+    <string>/Users/USER_NAME/Mute-on-Unplug/unplug_mute.sh</string>
     </array>
     <key>WorkingDirectory</key>
-    <string>/Users/[USER_NAME]/Mute-on-Unplug/</string>
+    <string>/Users/USER_NAME/Mute-on-Unplug/</string>
     <key>RunAtLoad</key>
     <true/>
     <key>KeepAlive</key>
