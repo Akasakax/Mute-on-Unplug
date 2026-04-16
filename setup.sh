@@ -6,3 +6,4 @@ echo "user name: $name"
 sed -i '' "s/USER_NAME/$name/" com.script.unplug_mute.plist
 sudo cp com.script.unplug_mute.plist /Library/LaunchAgents/
 launchctl load /Library/LaunchAgents/com.script.unplug_mute.plist
+echo "setup completed successfully"
