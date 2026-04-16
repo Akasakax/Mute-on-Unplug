@@ -5,4 +5,4 @@ name="$(whoami)"
 echo "user name: $name"
 sed -i '' "s/USER_NAME/$name/" com.script.unplug_mute.plist
 sudo cp com.script.unplug_mute.plist /Library/LaunchAgents/
-launchctl load com.script.unplug_mute.plist
+launchctl load /Library/LaunchAgents/com.script.unplug_mute.plist
