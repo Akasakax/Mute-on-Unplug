@@ -3,8 +3,7 @@
 while true; do
 mute_status="$(osascript -e 'output muted of (get volume settings)')"
 power_status="$(pmset -g batt)"
-echo "Mute status: $mute_status"
-echo "Battery status: $power_status"
+
 if [[ "$mute_status" == "true" ]]; then
     echo "Muted"
 elif [[ "$mute_status" == "false" ]]; then
